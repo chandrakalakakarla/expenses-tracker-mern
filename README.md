@@ -1,4 +1,20 @@
 # expenses-tracker
+step by step process to use this full satck project
+1.clone this project using git clone https://github.com/chandrakalakakarla/expenses-tracker-mern.git
+2.open any code editor and open the folder where you have extracted this repository.
+3.open the terminal  and follow the commands
+  >cd server
+  >npm init ("install all depenndencies"
+  >toucn .env
+  >set PORT=5000 or any other port
+  >set MONGO_URI="mongo credentials from atlas"
+  >npm start
+5.open another terminal and follow the commands
+  >cd app
+  >npm init
+  >npm start
+  
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
