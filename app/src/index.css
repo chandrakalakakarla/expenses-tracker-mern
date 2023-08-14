@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono&subset=greek");
+body {
+  margin: 0;
+  font-family: 'Roboto Mono',sans-serif !important ;
+
+}
+.primary{
+  background-color: #161c51;
+  padding:5px 20px;
+  color:white;
+  border:none;
+  }
