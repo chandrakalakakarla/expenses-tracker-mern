@@ -4,28 +4,30 @@ step by step process to use this full satck project
 	1.clone this project using git clone https://github.com/chandrakalakakarla/expenses-tracker-mern.git
  
 	2.open any code editor and open the folder where you have extracted this repository.
+
+ 	3.Create mongodb atlas account and create database with name EXPENSETRACKER
  
-	3.open the terminal  and follow the commands
+	4.open the terminal  and follow the commands
  
-  >cd server
+  		>cd server
 
-  >npm init ("install all depenndencies"
+  		>npm init ("install all depenndencies")
 
-  >toucn .env
+  		>toucn .env
 
-  >set PORT=5000 or any other port
+ 		 >set PORT=5000 or any other port
 
-  >set MONGO_URI="mongo credentials from atlas"
+  		>set MONGO_URI="mongo credentials from atlas "/EXPENSETRACKER
 
-  >npm start
+  		>npm start
 
-4.open another terminal and follow the commands
+	5.open another terminal and follow the commands
 
-  >cd app
+  		>cd app
 
-  >npm init
+  		>npm init
 
-  >npm start
+ 	        >npm start
   
 
 # Getting Started with Create React App
