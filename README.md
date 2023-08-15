@@ -11,13 +11,15 @@ step by step process to use this full satck project
  
   		>cd server
 
-  		>npm init ("install all depenndencies")
+  		>npm install /*installs all dependencies*/
+    
+  		>create  .env file
 
-  		>toucn .env
+ 		 .set PORT=5000 or any other port
 
- 		 >set PORT=5000 or any other port
-
-  		>set MONGO_URI="mongo credentials from atlas "/EXPENSETRACKER
+  		.set MONGO_URI="mongo credentials from atlas "/EXPENSETRACKER
+    
+    		.set NODE_DEV=production or development 
 
   		>npm start
 
@@ -25,7 +27,7 @@ step by step process to use this full satck project
 
   		>cd app
 
-  		>npm init
+  		>npm install
 
  	        >npm start
   
