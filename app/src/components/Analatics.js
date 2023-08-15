@@ -98,7 +98,7 @@ function Analatics({ transactions }) {
             <h4>Income - Category Wise</h4>
             {categories.map((category) => {
               const amount = transactions
-                .filter((t) => t.type === "income" && t.category === category)
+                .filter((t) => t.type == "income" && t.category === category)
                 .reduce((acc, t) => acc + t.amount, 0);
               return (
                 amount > 0 && <div className="category-card">
@@ -115,7 +115,7 @@ function Analatics({ transactions }) {
             <h4>Expense - Category Wise</h4>
             {categories.map((category) => {
               const amount = transactions
-                .filter((t) => t.type === "expense" && t.category === category)
+                .filter((t) => t.type == "expense" && t.category === category)
                 .reduce((acc, t) => acc + t.amount, 0);
               return (
                amount > 0 && <div className="category-card">
