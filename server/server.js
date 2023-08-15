@@ -13,10 +13,10 @@ const port =process.env.PORT || 5000
 
 if(process.env.NODE_ENV === 'production')
 {
-     app.use('/' , express.static(path.join(__dirname,'app/build')))
+     app.use('/' , express.static(path.join(__dirname,'expenses-tracker-mern/app/build')))
 
      app.get('*' , (req, res)=>{
-         res.sendFile(path.resolve(__dirname, 'app/build/index.html'))
+         res.sendFile(path.resolve(__dirname, 'expenses-tracker-mern/app/build/index.html'))
      })
 }
 
