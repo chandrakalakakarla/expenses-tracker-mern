@@ -34,3 +34,7 @@ label,a{
     font-weight: 600;
 
 }
+@media  screen and (max-width:700px) {
+    .layout{
+        margin:0 15px;
+    }
